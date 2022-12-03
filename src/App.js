@@ -1,11 +1,12 @@
 // import logo from './logo.svg';
 import './App.css';
-import Child from './Pages/Child';
+import Parent from './Pages/Parent';
+// import Child from './Pages/Child';
 
 function App() {
   return (
     <div className="App">
-     <Child/>
+     <Parent/>
     </div>
   );
 }

@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react';
 
-function Child() {
-    const [count, setCount] = useState(0);
+function Child({count, setCount}) {
+    
     return (
         <div className="card w-96 bg-slate-900 text-neutral-content">
         <div className="card-body items-center text-center">
+            <h1>Child</h1>
           <h1 className="card-title">{count}</h1>
          
           <div className="card-actions justify-end">
